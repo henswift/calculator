@@ -10,21 +10,84 @@
 
 
 #calculator {
-    border: solid 2px red;
     background-color: black;
     color: white;
-    height: 1000px;
-    width: 500px;
+    width: 442px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
 }
 
 #displaysection {
-    border: solid 2px blue;
+    height: 100px;
 }
 
 #buttonsection {
-    border: solid 2px green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#commandbuttons {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.command {
+    width: 80px;
+    height:  80px;
+    border-radius: 50%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2A33C;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.command:hover {
+    background-color: white;
+    color: #F2A33C;
+}
+
+.command:active {
+    background-color: white;
+    color: #F2A33C;
+}
+
+.otherbutton {
+    width: 80px;
+    height:  80px;
+    border-radius: 50%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2A33C;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.otherbutton:hover {
+    background-color: white;
+    color: #F2A33C;
 }
 
 #numbersection {
-    border: solid 2px orange;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    margin: 10px;
 }
