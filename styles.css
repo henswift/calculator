@@ -11,6 +11,8 @@
 
 #calculator {
     border: solid 2px red;
+    background-color: black;
+    color: white;
     height: 1000px;
     width: 500px;
 }
