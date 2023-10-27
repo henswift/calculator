@@ -7,7 +7,9 @@
     margin: 0;
   }
 
-
+body {
+    background-color: grey;
+}
 
 #calculator {
     background-color: black;
@@ -15,11 +17,16 @@
     width: 442px;
     padding: 20px;
     border-radius: 15px;
-    margin: 20px;
+    margin: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 #displaysection {
     height: 100px;
+}
+
+#displaysection h1 {
+    font-size: xx-large;
 }
 
 #buttonsection {
@@ -30,7 +37,6 @@
 #commandbuttons {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .command {
@@ -90,4 +96,9 @@
     background-color: #333333;
     color: white;
     margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.number:hover {
+    background-color: #737373;
 }
